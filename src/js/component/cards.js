@@ -13,12 +13,16 @@ export const Cards = () => {
 						Hair Color: none <br />
 						Eye-Color: yellow
 					</p>
-					<button type="button" className="btn btn-outline-primary btn-lg">
-						Learn more!
-					</button>
-					<button type="button" className="btn btn-outline-warning btn-lg float-right">
-						<i className="fas fa-heart" />
-					</button>
+					<div>
+						<Link to="/descripcion">
+							<button type="button" className="btn btn-outline-primary btn-lg">
+								Learn more!
+							</button>
+						</Link>
+						<button type="button" className="btn btn-outline-warning btn-lg float-right">
+							<i className="fas fa-heart" />
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>

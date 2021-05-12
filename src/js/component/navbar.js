@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light p-0 m-3">
+			<nav className="navbar navbar-expand-lg navbar-light bg-transparent p-0 m-3">
 				<div className="ml-5">
 					<img
 						className="img-responsive ml-5"
-						style={{ width: "60px" }}
+						style={{ width: "70px" }}
 						src="https://www.freepnglogos.com/uploads/star-wars-logo-31.png"
 					/>
 				</div>
@@ -22,7 +22,7 @@ export const Navbar = () => {
 						aria-expanded="false">
 						Favorites
 					</button>
-					<div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
 						<a className="dropdown-item" href="#">
 							Action
 						</a>
