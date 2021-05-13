@@ -1,16 +1,16 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 
-// export const descripcionCard = () => {
-//     return (
-//         <div className="row">
-//             <div className="jumbotron">
-//                 <h1 className="display-4">Hello, world!</h1>
-//                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-//                 <hr className="my-4">
-//                     <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
-// </div>
-//             </div>)
-		
-	
-// };
+export const DescripcionCards = () => {
+	return (
+		<div className="row">
+			<div className="jumbotron">
+				<img
+					src="https://store-images.s-microsoft.com/image/apps.877.9007199266276714.f012d88b-4373-4b30-8899-875eafce7bde.86e7f6fb-a551-4e75-9362-53fd02f84db0?mode=scale&q=90&h=200&w=200&background=%23000000"
+					className="rounded float-left"
+					alt="..."
+				/>
+			</div>
+		</div>
+	);
+};

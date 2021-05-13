@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-light bg-transparent p-0 m-3">
-				<div className="ml-5">
+			<nav className="navbar navbar-expand-lg navbar-light bg-warning p-0 m-3">
+				<Link to="/" className="ml-5">
 					<img
-						className="img-responsive ml-5"
-						style={{ width: "70px" }}
-						src="https://www.freepnglogos.com/uploads/star-wars-logo-31.png"
+						style={{ width: "90px" }}
+						src="https://logos-marcas.com/wp-content/uploads/2020/11/Star-Wars-Logo.png"
 					/>
-				</div>
+				</Link>
 				<div className="nav-item dropdown navbar-nav ml-auto">
 					<button
 						className="btn btn-outline-success dropdown-toggle"
